@@ -1,0 +1,11 @@
+---
+import BasicLayout from "./basicLayout.astro";
+const {frontmatter} = Astro.props;
+---
+<BasicLayout>
+<h1>{frontmatter.title}</h1>
+<h2>{frontmatter.client}</h2>
+<div class="o-prose">
+    <slot/>
+</div>
+</BasicLayout>
