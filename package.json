@@ -11,7 +11,9 @@
 	},
 	"dependencies": {
 		"astro": "^2.0.15",
-		"astro-netlify-cms": "^0.5.3",
+		"astro-netlify-cms": "^0.5.3"
+	},
+	"devDependencies": {
 		"sass": "^1.58.3"
 	}
 }
